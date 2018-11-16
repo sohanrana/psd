@@ -1,0 +1,73 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-service-box {
+        padding: 0 130px;
+    }
+}
+
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    .copyrightText {
+        display: none;
+    }
+    .copyright {
+        text-align: center !important;
+        margin-top: 15px;
+    }
+    .brand-carousel.owl-carousel .owl-item img {
+        width: 200px;
+        margin: auto;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .boxed-btn {
+        padding: 15px 35px;
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+    .section-title p {
+        font-size: 15px;
+    }
+}
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+
+/*custom */
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        background: #333;
+        width: 100%;
+        padding: 15px 40px;
+    }
+    .navbar-expand-lg .navbar-nav a.nav-link {
+        padding: 10px 0;
+    }
+    nav.navbar {
+        padding: 10px 0;
+    }
+}
